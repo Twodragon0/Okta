@@ -95,4 +95,3 @@ By integrating biometric authentication with Okta Verify, you can significantly 
 - **Troubleshooting**: If login issues arise, select "Verify another way" for alternative authentication methods.
 
 For further assistance or information, please contact your IT department or visit [Okta's support resources](https://support.okta.com).
-
