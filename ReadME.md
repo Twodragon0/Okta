@@ -18,12 +18,50 @@ Okta provides a comprehensive single sign-on (SSO) solution, facilitating access
 - **GitHub**: Secure management of code repositories.
 - **Dropbox**: Unified file storage and sharing.
 
-## Setup Instructions
+# Comprehensive Guide to Biometric Authentication with Okta Verify for Android and iOS
 
-### Installing Okta Verify for Android
+## Overview
 
-1. Download the Okta Verify app from the Google Play Store. Visit [Google Play Store: Okta Verify](https://play.google.com/store/apps/details?id=com.okta.android.auth&hl=en&gl=US).
-2. Install in your personal profile to enable biometric features.
+This README provides instructions on configuring biometric authentication using Okta Verify for both Android and iOS devices. Biometric authentication can include fingerprint scanning, facial recognition, or iris scanning, enhancing security and convenience for accessing services.
+
+## Android Biometrics Configuration
+
+### Setting Up Okta Verify
+
+1. **Ensure Device Compatibility**: Check that your Android device meets the system and hardware requirements for biometric features.
+2. **Install Okta Verify**: Download from the Google Play Store [Okta Verify on Google Play](https://play.google.com/store/apps/details?id=com.okta.android.auth&hl=en&gl=US).
+3. **Setup Biometrics**:
+   - Open Okta Verify and navigate to the biometrics setup page.
+   - Follow the instructions to enroll your biometrics.
+
+### Troubleshooting & Known Issues
+
+- For issues related to Android biometrics, consult the Google Issue Tracker: [Biometric Authentication Issue](https://issuetracker.google.com/issues/195330769?pli=1).
+
+## iOS Biometrics Configuration
+
+### Setting Up Okta Verify
+
+1. **Install Okta Verify**: Download from the Apple App Store [Okta Verify on App Store](https://apps.apple.com/us/app/okta-verify/id490179405).
+2. **Activate Biometrics**:
+   - Go to `Settings` in Okta Verify.
+   - Enable Touch ID or Face ID as per your device capabilities.
+
+### General Instructions for Biometrics on iOS
+
+- Ensure that your iOS device supports the desired biometric method and that it is properly configured in your device's settings.
+
+## Support and Additional Resources
+
+If you encounter difficulties or have questions about using biometric authentication with Okta Verify, please:
+
+- Contact your IT department.
+- Visit Okta's support page for more detailed instructions: [Okta Support](https://support.okta.com).
+- Use the linked resources above for device-specific troubleshooting.
+
+## Conclusion
+
+By integrating biometric authentication with Okta Verify, you can significantly enhance the security and ease of access to services on your mobile devices. This guide provides all the necessary steps and resources for Android and iOS users to set up and troubleshoot biometric authentication effectively.
 
 ### Activating Your Okta Account
 
