@@ -2,65 +2,59 @@
 
 ## Overview
 
-Okta offers a comprehensive single sign-on (SSO) solution that simplifies the process of accessing multiple services with a single login. This guide provides detailed instructions on how to activate your Okta account and set up necessary applications to efficiently use Okta services.
+Okta provides a comprehensive single sign-on (SSO) solution, facilitating access to multiple services with one login. This guide details the activation and usage of your Okta account, highlighting key features for efficient management and security enhancements.
 
 ## Benefits
 
-- **Single Sign-On**: Enables streamlined access to various services using just one set of credentials.
-- **Automated User Management**: Syncs organizational data in real time to manage user permissions effectively.
-- **Enhanced Security**: Helps minimize security risks and unify monitoring by centralizing account management.
+- **Single Sign-On**: Streamline access to services with one set of credentials.
+- **Automated User Management**: Real-time synchronization of organizational data for effective user permissions management.
+- **Enhanced Security**: Centralize account management to reduce security risks and improve monitoring.
 
-## Services Integrated
+## Integrated Services
 
-### Currently Integrated Services
-
-- **Salesforce**: Enhances sales, customer service, and marketing operations with simplified access.
-- **Zoom**: Facilitates easy joining of meetings and management of schedules.
-- **Office 365**: Provides access to all Microsoft Office tools under a single login.
-- **GitHub**: Offers secure management of code repositories.
-- **Dropbox**: Allows unified access to file storage and sharing capabilities.
+- **Salesforce**: Simplified access for sales, customer service, and marketing operations.
+- **Zoom**: Easier meeting management and scheduling.
+- **Office 365**: Access all Microsoft Office tools with one login.
+- **GitHub**: Secure management of code repositories.
+- **Dropbox**: Unified file storage and sharing.
 
 ## Setup Instructions
 
-### Installing Okta Verify
+### Installing Okta Verify for Android
 
-#### For Android Users
+1. Download the Okta Verify app from the Google Play Store. Visit [Google Play Store: Okta Verify](https://play.google.com/store/apps/details?id=com.okta.android.auth&hl=en&gl=US).
+2. Install in your personal profile to enable biometric features.
 
-1. Download the **Okta Verify app** from the Google Play Store.
-2. Install the app in your personal profile to enable biometric features, as biometrics are not supported in work profiles on certain Android versions.
+### Activating Your Okta Account
 
+1. Click the **Activate Okta Account** button in the activation email.
+2. Log in with the provided temporary password.
 
-#### Activating Your Okta Account
+### Enrolling in Multi-Factor Authentication (MFA)
 
-1. Open the activation email and click on the **Activate Okta Account** button.
-2. Log in with the provided temporary password to access your account for the first time.
+1. Navigate to `Settings` post-login and enroll in **Okta Verify MFA**.
+2. Scan the QR code with your mobile device.
+3. Enable biometric authentication.
 
+## Usage Tips
 
-##### Enrolling in Multi-Factor Authentication (MFA)
-1. Post-login, navigate to `Settings` and enroll in **Okta Verify MFA**.
-2. Use your mobile device to scan the QR code displayed on the screen.
-3. Enable biometric authentication to simplify future logins.
+### Okta Browser Plugin
 
+- **Functionality**: Direct logins to services through an easy-to-use browser interface.
+- **Installation**: Install the Chrome plugin for enhanced security. For installation visit [Okta Browser Plugin](https://chrome.google.com/webstore/detail/okta-browser-plugin/).
 
-#### Usage Tips
+### Okta FastPass
 
-##### Okta Browser Plugin
-Functionality: Enables direct logins to integrated services through an easy-to-use browser interface.
-Installation: Install the Chrome plugin for enhanced security and ease of access.
+- **Platform Support**: Windows and Mac.
+- **Setup**: After MFA setup, activate FastPass for biometric logins.
+- **Login**: Use FastPass for a seamless login experience.
 
-##### Okta FastPass
-Platform Support: Compatible with both Windows and Mac operating systems.
-Setup: First, set up MFA on your mobile device using Okta Verify. Then, activate FastPass to utilize biometric logins.
-Login: Opt for FastPass during login for a seamless and secure authentication experience.
+**Note**: Initially, use FastPass to authenticate using Windows PIN or Mac's Touch ID.
 
+### Additional Recommendations
 
-**Note**: For the initial setup, use FastPass to log in and authenticate using Windows PIN or Mac's Touch ID, depending on your device.
-Additional Recommendations
-App Maintenance: Avoid uninstalling the Okta Verify app after setup to prevent potential connection issues.
-Troubleshooting: If you face login difficulties, use the "Verify another way" option to choose alternative authentication methods like codes, push notifications, or Okta FastPass.
-For additional support or more information, please contact your IT department or refer to Okta's official support resources.
+- **App Maintenance**: Keep the Okta Verify app installed to avoid connection issues.
+- **Troubleshooting**: If login issues arise, select "Verify another way" for alternative authentication methods.
 
+For further assistance or information, please contact your IT department or visit [Okta's support resources](https://support.okta.com).
 
-```markdown
-This README format is structured for use on GitHub, offering a comprehensive guide to activating and effectively using your Okta account with a focus on security and user convenience.
-```
