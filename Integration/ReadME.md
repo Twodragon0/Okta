@@ -75,4 +75,4 @@ Services are categorized into three priority levels based on necessity:
 
 Following established best practices for Okta integration ensures efficient and secure service management. Service owners need to regularly check the SAML and Okta integration process compatibility, especially for enterprise-level licenses.
 
-For further assistance, contact the HR team or refer to detailed documentation in the Okta integration best practices guide.
+For further assistance, contact the Okta team or refer to detailed documentation in the Okta integration best practices guide.
